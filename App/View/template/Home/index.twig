@@ -1,0 +1,15 @@
+{% extends "base.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+
+    {% if current_user %}
+        Hello <h3>{{ current_user.first_name }}</h3>.
+        <br>
+        <a href="login/logout">Log out</a>
+    {% else %}
+        <a href="register">Register</a> or <a href="/login">log in</a>.
+    {% endif %}
+
+{% endblock %}

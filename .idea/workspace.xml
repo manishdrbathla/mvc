@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f565960-c1b5-428c-b055-043fd76eb32a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/App/View/template/Password/reset.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mvc.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e61f67641b441bb3ee38e903c594d99cafa14b4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0e61f67641b441bb3ee38e903c594d99cafa14b4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a563f945a9307bf4edf566bd37574fcbd0763f28" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a563f945a9307bf4edf566bd37574fcbd0763f28" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0fc96cd6f666f882a06caa11b614517d680d8d5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f0fc96cd6f666f882a06caa11b614517d680d8d5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Controller/PasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Controller/PasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App/Model/UserModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/App/Model/UserModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/LoggerInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/psr/log/Psr/Log/Test/LoggerInterfaceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Definition/ArrayNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Definition/ArrayNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Definition/BaseNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Definition/BaseNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Definition/Builder/ArrayNodeDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Definition/Builder/ArrayNodeDefinition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Definition/Builder/ExprBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Definition/Builder/ExprBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Definition/Builder/NumericNodeDefinition.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Definition/Builder/NumericNodeDefinition.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Definition/Dumper/YamlReferenceDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Definition/Dumper/YamlReferenceDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Definition/PrototypedArrayNode.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Definition/PrototypedArrayNode.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/FileLocator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/FileLocator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Loader/FileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Loader/FileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/config/Util/XmlUtils.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/config/Util/XmlUtils.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Application.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Application.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Command/Command.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Descriptor/ApplicationDescription.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Formatter/OutputFormatterStyle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/QuestionHelper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/Table.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/Table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableStyle.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Helper/TableStyle.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Input/StringInput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Output/StreamOutput.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/console/Question/ChoiceQuestion.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Argument/ReferenceSetArgumentTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Argument/ReferenceSetArgumentTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AbstractRecursivePass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AbstractRecursivePass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/CheckTypeDeclarationsPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/CheckTypeDeclarationsPass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/PriorityTaggedServiceTrait.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/PriorityTaggedServiceTrait.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/ResolveBindingsPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/ResolveBindingsPass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/ResolveNamedArgumentsPass.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/ResolveNamedArgumentsPass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Container.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Container.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/EnvVarProcessor.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/EnvVarProcessor.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/Configurator/AbstractConfigurator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/Configurator/AbstractConfigurator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/Configurator/ContainerConfigurator.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/Configurator/ContainerConfigurator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/FileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/FileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/XmlFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/XmlFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ParameterBag/EnvPlaceholderParameterBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ParameterBag/EnvPlaceholderParameterBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ParameterBag/ParameterBag.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ParameterBag/ParameterBag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/symfony/polyfill-php73/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/symfony/polyfill-php73/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/.coveralls.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/ci/boot.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/ci/check_filters_docs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/ci/check_validators_docs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/ci/check_validators_translations.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/ci/dump_filters_docs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/ci/dump_validators_docs.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/composer.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/gump.class.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/de.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/en.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/eo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/es.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/fa.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/fr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/he.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/hu.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/id.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/it.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/ja.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/nl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/pt-br.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/ru.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/tr.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/lang/uk.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/phpunit.xml.dist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/src/ArrayHelpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/src/EnvHelpers.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/BaseTestCase.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/ConstructorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/FilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/BasicTagsFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/BooleanFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/HtmlencodeFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/LowercaseFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/MsWordCharactersFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/NoiseWordsFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/RmpunctuationFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/SanitizeEmailFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/SanitizeFloatsFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/SanitizeNumbersFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/SanitizeStringFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/SlugFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/UrlencodeFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Filters/WholeNumberFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/GetErrorsArrayTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/GetReadableErrorsTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/RunTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/SanitizeTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/StaticAddFilterTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/StaticAddValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/StaticFieldTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/StaticFilterInputTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/StaticIsValidTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/StaticSetErrorMessagesTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/StaticSetFieldNameTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/StaticXssCleanTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/ValidateTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/AlphaDashValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/AlphaNumericDashValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/AlphaNumericSpaceValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/AlphaNumericValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/AlphaSpaceValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/AlphaValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/BooleanValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ContainsListValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ContainsValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/DateValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/DoesntContainListValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/EqualsFieldValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ExactLenValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ExtensionValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/FloatValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/Guidv4ValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/IbanValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/IntegerValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/MaxLenValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/MaxNumericValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/MinAgeValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/MinLenValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/MinNumericValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/NumericValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/PhoneNumberValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/RegexValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/RequiredFileValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/RequiredValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/StartsValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/StreetAddressValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/UrlExistsValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidArraySizeEqualValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidArraySizeGreaterValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidArraySizeLesserValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidCcValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidEmailValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidIpValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidIpv4ValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidIpv6ValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidJsonStringValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidNameValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidTwitterValidatorTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/wixel/gump/tests/Validators/ValidUrlValidatorTest.php" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="mvc" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/App/Controller/PasswordController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+              <folding>
+                <element signature="e#7#146#0#PHP" expanded="true" />
+                <element signature="e#175#199#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Model/UserModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
+              <folding>
+                <element signature="e#29#42#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Controller/LoginController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="e#7#142#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Model/RememberedLoginModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Token.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="449">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="e#7#132#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Auth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+              <folding>
+                <element signature="e#7#131#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App/Authenticated.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+              <folding>
+                <element signature="e#7#140#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/log</find>
+      <find>/login</find>
+      <find>Login/new.html</find>
+      <find>loginFromRememberCookie</find>
+      <find>$this-&gt;redirect('/')</find>
+      <find>$_sessionStarted</find>
+      <find>At least 8 character password</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>$sessionStarted</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/System/Core/Sample.php" />
+        <option value="$PROJECT_DIR$/App/View/template/Home/home.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/In/in.twig" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/App/Controller/Authenticated.php" />
+        <option value="$PROJECT_DIR$/App/Controller/Items.php" />
+        <option value="$PROJECT_DIR$/App/View/template/home/home.twig" />
+        <option value="$PROJECT_DIR$/App/Controller/New folder/HomeController.php" />
+        <option value="$PROJECT_DIR$/App/View/template/user/login.twig" />
+        <option value="$PROJECT_DIR$/App/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/App/View/template/In/index.html" />
+        <option value="$PROJECT_DIR$/App/Controller/In.php" />
+        <option value="$PROJECT_DIR$/App/Controller/InController.php" />
+        <option value="$PROJECT_DIR$/App/Controller/ItemController.php" />
+        <option value="$PROJECT_DIR$/System/Core/BaseModel.php" />
+        <option value="$PROJECT_DIR$/System/Core/Registry.php" />
+        <option value="$PROJECT_DIR$/System/Core/Router.php" />
+        <option value="$PROJECT_DIR$/App/Authenticated.php" />
+        <option value="$PROJECT_DIR$/App/Flash.php" />
+        <option value="$PROJECT_DIR$/App/FlashMessage.php" />
+        <option value="$PROJECT_DIR$/App/Token.php" />
+        <option value="$PROJECT_DIR$/System/Core/BaseController.php" />
+        <option value="$PROJECT_DIR$/System/Core/ErrorHandler.php" />
+        <option value="$PROJECT_DIR$/System/Library/MyPDO.php" />
+        <option value="$PROJECT_DIR$/System/Library/Page.php" />
+        <option value="$PROJECT_DIR$/System/Library/Request.php" />
+        <option value="$PROJECT_DIR$/System/Library/Session.php" />
+        <option value="$PROJECT_DIR$/App/Auth.php" />
+        <option value="$PROJECT_DIR$/App/View/template/Home/index.html" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/System/Core/View.php" />
+        <option value="$PROJECT_DIR$/App/View/template/base.html" />
+        <option value="$PROJECT_DIR$/App/View/template/500.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/404.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/In/index.twig" />
+        <option value="$PROJECT_DIR$/App/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/App/Controller/LoginController.php" />
+        <option value="$PROJECT_DIR$/App/Controller/RegisterController.php" />
+        <option value="$PROJECT_DIR$/App/View/template/Register/register.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/Home/index.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/Login/new.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/Password/forgot.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/Password/reset_requested.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/Password/reset_email.html" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/App/View/template/Password/reset.twig" />
+        <option value="$PROJECT_DIR$/App/View/template/Password/token_expired.html" />
+        <option value="$PROJECT_DIR$/App/View/template/Password/reset.html" />
+        <option value="$PROJECT_DIR$/App/Mail.php" />
+        <option value="$PROJECT_DIR$/App/Model/UserModel.php" />
+        <option value="$PROJECT_DIR$/App/Controller/PasswordController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/phan/phan" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/sabre/event" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/kahlan/kahlan" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/rollbar/rollbar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/microsoft/tolerant-php-parser" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/anti-csrf" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/aidantwoods/secureheaders" />
+      <path value="$PROJECT_DIR$/vendor/netresearch/jsonmapper" />
+      <path value="$PROJECT_DIR$/vendor/felixfbecker/advanced-json-rpc" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/php-kit/ext-pdo" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/pdepend/pdepend" />
+      <path value="$PROJECT_DIR$/vendor/phpmd/phpmd" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name=".github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="App" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="System" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mvc" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
+              <item name="System" type="462c0819:PsiDirectoryNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/App/View/template/Password" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc\App\View\template\Password" />
+      <recent name="C:\xampp\htdocs\mvc\App\View\template\Items" />
+      <recent name="C:\xampp\htdocs\mvc\App\View\template" />
+      <recent name="C:\xampp\htdocs\mvc\App\View\template\Login" />
+      <recent name="C:\xampp\htdocs\mvc\App\View\template\In" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\mvc\App" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f565960-c1b5-428c-b055-043fd76eb32a" name="Default Changelist" comment="" />
+      <created>1584685122699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584685122699</updated>
+      <workItem from="1584685124376" duration="15812000" />
+      <workItem from="1584709084038" duration="2769000" />
+      <workItem from="1584775610002" duration="10733000" />
+      <workItem from="1584866624141" duration="3925000" />
+      <workItem from="1584883792414" duration="1974000" />
+      <workItem from="1584956428995" duration="6973000" />
+      <workItem from="1585041361706" duration="12779000" />
+      <workItem from="1585121773568" duration="2107000" />
+      <workItem from="1585125275203" duration="2564000" />
+      <workItem from="1585130072304" duration="661000" />
+      <workItem from="1585133376047" duration="467000" />
+      <workItem from="1585482524883" duration="5357000" />
+      <workItem from="1585546391661" duration="2182000" />
+      <workItem from="1585659722962" duration="11472000" />
+      <workItem from="1585737217692" duration="3031000" />
+      <workItem from="1585817289763" duration="9397000" />
+      <workItem from="1585902963416" duration="8819000" />
+      <workItem from="1585929332666" duration="596000" />
+      <workItem from="1585932270200" duration="4502000" />
+      <workItem from="1585997228762" duration="4064000" />
+      <workItem from="1586172713027" duration="5053000" />
+      <workItem from="1586255632462" duration="584000" />
+      <workItem from="1586271011926" duration="452000" />
+      <workItem from="1586342395543" duration="6418000" />
+      <workItem from="1586427500672" duration="2725000" />
+      <workItem from="1586521177544" duration="3695000" />
+      <workItem from="1586756042990" duration="7031000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="136142000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.3419062" />
+      <window_info id="Structure" order="1" sideWeight="0.5008183" side_tool="true" weight="0.26172465" />
+      <window_info id="DB Browser" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.5011655" side_tool="true" weight="0.26172465" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="SonarLint" order="9" sideWeight="0.49848714" weight="0.29623568" />
+      <window_info anchor="bottom" id="DB Execution Console" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="DB Browser" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="DB Execution Console" order="0" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="SonarLint" order="3" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="13" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/App/Controller/Account.php" />
+    <entry file="file://$PROJECT_DIR$/App/Controller/Signup.php" />
+    <entry file="file://$PROJECT_DIR$/App/FlashMessage.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#7#139#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Core/Registry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Core/Router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Core/ErrorHandler.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Core/BaseModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#7#136#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Library/Session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Library/Request.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#6#207#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Library/Page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Library/AntiCSRF.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Core/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#7#141#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/styles.css" />
+    <entry file="file://$PROJECT_DIR$/App/View/template/Home/index.html" />
+    <entry file="file://$PROJECT_DIR$/App/View/template/base.html" />
+    <entry file="file://$PROJECT_DIR$/App/View/template/In/index.html" />
+    <entry file="file://$PROJECT_DIR$/App/View/template/Login/new.html" />
+    <entry file="file://$PROJECT_DIR$/App/View/template/404.html" />
+    <entry file="file://$PROJECT_DIR$/App/View/template/500.html" />
+    <entry file="file://$PROJECT_DIR$/App/View/template/base.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/In/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/404.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/500.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Items/index.html" />
+    <entry file="file://$PROJECT_DIR$/App/View/template/Items/index.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Register/register.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding>
+            <element signature="e#171#202#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Home/index.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/ItemController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Password/forgot.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Core/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="57" selection-start-line="25" selection-start-column="57" selection-end-line="25" selection-end-column="57" />
+          <folding>
+            <element signature="e#7#131#0#PHP" expanded="true" />
+            <element signature="e#157#170#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Password/reset_requested.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#175#206#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/System/Library/MyPDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Password/reset.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="15" selection-start-line="48" selection-start-column="15" selection-end-line="48" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Password/token_expired.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Login/new.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Password/reset_email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="67" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Password/reset_requested.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="153" column="13" selection-start-line="153" selection-start-column="13" selection-end-line="153" selection-end-column="13" />
+          <folding>
+            <element signature="e#209#253#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/View/template/Password/reset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="50" column="51" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/RememberedLoginModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Token.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="e#7#132#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
+          <folding>
+            <element signature="e#7#131#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Authenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="e#7#140#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#142#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Model/UserModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="e#29#42#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App/Controller/PasswordController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding>
+            <element signature="e#7#146#0#PHP" expanded="true" />
+            <element signature="e#175#199#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+
+[	php:S11929"FDefine a constant instead of duplicating this literal "index" 4 times.(ØâÚğ
+D	php:S11729"/Remove the unused function parameter "$action".(ØâÚğ
+f	php:S1192A"QDefine a constant instead of duplicating this literal "App\Controller\\" 4 times.(Ä§²Ï
+e	php:S1192Q"IDefine a constant instead of duplicating this literal "GET|POST" 3 times.(…ÛªÉ8™óª”.
+f	php:S1192<"LDefine a constant instead of duplicating this literal "Controller/" 4 times.(™½Ş¼ùÿÿÿÿ
+`	php:S1192;"KDefine a constant instead of duplicating this literal "Controller" 4 times.(¿¾Áª
+o	php:S1192j"NDefine a constant instead of duplicating this literal "error/404.php" 3 times.(²Ùäúÿÿÿÿ8™óª”.
+8php:S125!"Remove this commented out code.(É²âóÿÿÿÿÿ
+8php:S125i"Remove this commented out code.(¾€Ùÿøÿÿÿÿ
+p	php:S1192H"VDefine a constant instead of duplicating this literal "Function not callable" 4 times.(ÀƒÚûÿÿÿÿ

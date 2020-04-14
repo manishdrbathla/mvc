@@ -1,0 +1,10 @@
+
+D	php:S1066 "/Merge this if statement with the enclosing one.(“ÖÈ®
+F	php:S14815"*Remove this unused "$data" local variable.(Àø–ÿ8ƒ¡ÉÒ•.
+?php:S125q"Remove this commented out code.(‡»Íøşÿÿÿÿ8çÉ×“—.
+?php:S125o"Remove this commented out code.(’³Ççÿÿÿÿÿ8çÉ×“—.
+:php:S125y"Remove this commented out code.(¦¤şÜ8çÉ×“—.
+?php:S125"Remove this commented out code.(Ğ×õùÿÿÿÿ8çÉ×“—.
+P	php:S1066d"/Merge this if statement with the enclosing one.(ªÆ•œşÿÿÿÿ8„¿îÒ•.
+:php:S125w"Remove this commented out code.(¥ª‰’8çÉ×“—.
+?php:S125|"Remove this commented out code.(êçã©ÿÿÿÿÿ8çÉ×“—.

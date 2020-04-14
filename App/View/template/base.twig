@@ -1,0 +1,53 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" dir="ltr" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8" dir="ltr" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9" dir="ltr" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" dir="ltr" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}{% endblock %}</title>
+    <meta name="description" content="page descripton here" />
+    <meta name="keywords" content="vediyum, ecommerce, commerce" />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+    <meta name="msapplication-config" content="favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="https://www.vediyum.com/" />
+    <meta name="google" content="nositelinkssearchbox" />
+    <meta name="google" content="notranslate" />
+    <meta name="google-site-verification" content="" />
+    <meta name="msvalidate.01" content="" />
+    <meta property="og:title" content="Title here" />
+    <meta property="og:url" content="https://www.vediyum.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="A description of our services and company profile." />
+    <meta property="og:image" content="http://www.mysite.com/articleimage.jpg" />
+    <meta property="og:site_name" content="Vediyum.com" />
+    <meta property="fb:app_id" content="1234567890987654321" />
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Title here">
+    <meta name="twitter:description" content="20 letter long description here">
+    <meta name="twitter:url" content="https://www.vediyum.com" />
+    <meta name="twitter:image" content="http://www.yourdomain.com/image-name.png" />
+    <link type="text/css" rel="stylesheet" href="/css/normalize.min.css" media="all" />
+    <link type="text/css" rel="stylesheet" href="/css/layout.css" media="all"/>
+    <link type="text/css" rel="stylesheet" href="/css/overlay.css" media="all"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" crossorigin="anonymous">
+</head>
+<body>
+
+    {% block body %}
+    {% endblock %}
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    {% block footer %}
+    {% endblock %}
+</body>
+</html>
